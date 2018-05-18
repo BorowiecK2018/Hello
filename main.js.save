@@ -1,0 +1,11 @@
+alert("Hello!");
+alert("do you like ice cream");
+alert("Mr. Gold thinks ice cream is terrible");
+console.log("but gelato is ok");
+
+
+var person = prompt("Please enter you name", "Wombatman");
+var font = prompt("what is your favorite font?", "Comic Sans");
+
+document.getElementById("name").innerHTML = "Hello " + person + "! How are you today?" + font + "is your favorite font, apperently";
+
